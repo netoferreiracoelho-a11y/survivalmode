@@ -51,10 +51,7 @@
     background:linear-gradient(var(--fire),var(--fire2));
   }
   .top{display:flex;gap:14px;align-items:flex-start}
-  .icon{
-    flex:0 0 52px;height:52px;border-radius:14px;display:grid;place-items:center;
-    background:#1f1a15;border:1px solid #3a2a1c;font-size:26px;
-  }
+  .hero{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px;margin-bottom:16px;background:#1f1a15;border:1px solid #3a2a1c}
   .label{font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--fire)}
   h2{font-size:19px;font-weight:800;line-height:1.25;margin:2px 0 6px}
   .card p{color:var(--muted);font-size:14.5px}
@@ -71,7 +68,7 @@
     padding:12px 14px;margin-bottom:10px;transition:border-color .15s, transform .15s;
   }
   .gear:hover{border-color:var(--fire);transform:translateY(-1px)}
-  .gi{flex:0 0 40px;height:40px;border-radius:10px;display:grid;place-items:center;background:#1f1a15;border:1px solid #3a2a1c;font-size:20px}
+  .gi{flex:0 0 72px;width:72px;height:72px;border-radius:12px;background:#fff;object-fit:contain;padding:4px;border:1px solid #3a2a1c}
   .gt{flex:1;min-width:0}
   .gt b{display:block;font-size:15px;font-weight:800;line-height:1.3}
   .gt small{display:block;color:var(--muted);font-size:12.5px;line-height:1.4;margin-top:2px}
@@ -92,7 +89,7 @@
   <header>
     <img class="badge" src="logo.webp" alt="Survival Mode logo" width="120" height="120">
     <h1>SURVIVAL <span>MODE</span></h1>
-    <p class="tag">Bushcraft, shelters &amp; real survival skills.<br>The knife from the video 👇</p>
+    <p class="tag">Bushcraft, shelters &amp; real survival skills.<br>The gear I use in the videos 👇</p>
     <a class="ig" href="https://www.instagram.com/survivalmode.wild/" target="_blank" rel="noopener">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
       @survivalmode.wild
@@ -102,9 +99,9 @@
   <div class="section-title">Featured gear</div>
 
   <article class="card">
-    <div class="top">
-      <div class="icon">🔪</div>
-      <div>
+    <img class="hero" src="https://cdn.shopify.com/s/files/1/0953/9708/5567/files/image_43_4e166fb8-0fed-4309-85f8-10da6982a714.png" alt="Matsato Osuren Knife" loading="lazy">
+<div class="top">
+<div>
         <div class="label">The knife from the video</div>
         <h2>Matsato Osuren Knife</h2>
         <p>Hand-forged, Japanese-style blade with a finger-hole grip for control. A solid knife for prepping food at camp or at home.</p>
@@ -113,10 +110,78 @@
     <a class="btn" href="https://hop.clickbank.net/?affiliate=ecantoaf&amp;vendor=matsatopro" target="_blank" rel="sponsored nofollow noopener">Check the knife →</a>
   </article>
 
-  <p class="rule">Prepare today. <b>Survive tomorrow.</b></p>
+<div class="section-title">Shelter &amp; warmth</div>
+<a class="gear" href="https://www.amazon.com/dp/B09B249MHJ?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/61fqhkhrUTS._AC_SL500_.jpg" alt="OneTigris Rock Fortress Hot Tent" loading="lazy" width="72" height="72">
+<span class="gt"><b>OneTigris Rock Fortress Hot Tent</b><small>4-season tipi with stove jack. Sleep warm in the snow.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B0DRVGBXBV?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/71aLVf%2B3vzL._AC_SL500_.jpg" alt="Unho Hot Tent Wood Stove" loading="lazy" width="72" height="72">
+<span class="gt"><b>Unho Hot Tent Wood Stove</b><small>Stainless tent stove with glass window. Pairs with the hot tent.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B01HO15DGS?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/61rG0kJ2vxL._AC_SL500_.jpg" alt="Free Soldier Waterproof Tarp" loading="lazy" width="72" height="72">
+<span class="gt"><b>Free Soldier Waterproof Tarp</b><small>Fast rain shelter: ridgeline or lean-to in minutes.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+
+<div class="section-title">Cutting tools</div>
+<a class="gear" href="https://www.amazon.com/dp/B000WIROX6?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/41tVzXssicL._AC_SL500_.jpg" alt="Gr&auml;nsfors Bruk Small Forest Axe" loading="lazy" width="72" height="72">
+<span class="gt"><b>Gr&auml;nsfors Bruk Small Forest Axe</b><small>The classic Swedish hand-forged bushcraft axe.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B01M0VJYNS?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/51DBmJS2oPL._AC_SL500_.jpg" alt="Agawa Boreal21 Folding Bucksaw" loading="lazy" width="72" height="72">
+<span class="gt"><b>Agawa Boreal21 Folding Bucksaw</b><small>Cuts logs fast, folds flat into your pack.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B09214DLJ6?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/51N0scaOznL._AC_SL500_.jpg" alt="Morakniv Garberg Carbon" loading="lazy" width="72" height="72">
+<span class="gt"><b>Morakniv Garberg Carbon</b><small>Full-tang bushcraft knife. Batons, carves, sparks a ferro rod.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B00VFBEJX2?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/7139QIaoWRL._AC_SL500_.jpg" alt="6&quot; Ferro Rod Fire Starter" loading="lazy" width="72" height="72">
+<span class="gt"><b>6&quot; Ferro Rod Fire Starter</b><small>Thousands of strikes. Fire in rain and wind.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+
+<div class="section-title">Power tools for the build</div>
+<a class="gear" href="https://www.amazon.com/dp/B0C3PQHGR7?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/81u6kH7EgQL._AC_SL500_.jpg" alt="DEWALT 20V Drill + Impact Driver Kit" loading="lazy" width="72" height="72">
+<span class="gt"><b>DEWALT 20V Drill + Impact Driver Kit</b><small>The combo for driving screws into beams and boards. 2 batteries.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B09RTSDQCQ?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/41tNf8wwHUL._AC_SL500_.jpg" alt="EGO Power+ 16&quot; Cordless Chainsaw" loading="lazy" width="72" height="72">
+<span class="gt"><b>EGO Power+ 16&quot; Cordless Chainsaw</b><small>Battery chainsaw that cuts like gas. No fuel mixing.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B007NVSTCK?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/61aJg9UdXdL._AC_SL500_.jpg" alt="DEWALT 20V Reciprocating Saw" loading="lazy" width="72" height="72">
+<span class="gt"><b>DEWALT 20V Reciprocating Saw</b><small>Branches, demolition and notches on the cabin frame.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+
+<div class="section-title">Off-grid power</div>
+<a class="gear" href="https://www.amazon.com/dp/B0D7PPG25F?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/61%2BaLXXv6eL._AC_SL500_.jpg" alt="Jackery Explorer 1000 v2" loading="lazy" width="72" height="72">
+<span class="gt"><b>Jackery Explorer 1000 v2</b><small>1,024Wh power station. Charges your tool batteries at camp.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+<a class="gear" href="https://www.amazon.com/dp/B0C4DW17PD?tag=survivalmod0f-20" target="_blank" rel="sponsored nofollow noopener">
+<img class="gi" src="https://m.media-amazon.com/images/I/71Xq-1mJ9RL._AC_SL500_.jpg" alt="EcoFlow DELTA 2 Max" loading="lazy" width="72" height="72">
+<span class="gt"><b>EcoFlow DELTA 2 Max</b><small>2,048Wh / 2,400W. Runs heavy tools fully off-grid.</small></span>
+<span class="go">View &rarr;</span>
+</a>
+
+<p class="rule">Prepare today. <b>Survive tomorrow.</b></p>
 
   <footer>
-    <p class="disc">Disclosure: some links on this page are affiliate links. If you buy through them, I may earn a commission at no extra cost to you. Product details are provided by each seller.</p>
+    <p class="disc">Disclosure: some links on this page are affiliate links. If you buy through them, I may earn a commission at no extra cost to you. Product details are provided by each seller. As an Amazon Associate I earn from qualifying purchases.</p>
     <p class="copy">© Survival Mode</p>
   </footer>
 
